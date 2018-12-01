@@ -1,0 +1,310 @@
+body, html{
+    color: rgb(56, 52, 52);
+    height: 100%;
+    width: 100%;
+}
+
+.caption{
+    font-family: 'Yesteryear', cursive;
+    transform: translate(08%, 250px);
+    color: rgb(175, 111, 51);
+    margin-right: 65%;
+}
+
+.how-it-works{
+    font-size: 18px;
+    box-sizing: border-box;
+    font-family: 'Centra',Arial,Helvetica,Verdana,sans-serif;
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.howitworks{
+   margin-left: 200px;
+   font-family: 'Yesteryear', cursive;
+   font-size: 42px;
+}
+
+.pick-a-box,
+.delivery-month,
+.serious-fun{
+    font: bold;
+    font-size: 20px;
+    font-family: 'Centra',Arial,Helvetica,Verdana,sans-serif;
+    display: inline;
+    color: rgb(81, 175, 139);
+}
+
+h2.font-bold{
+    font-family: 'Hanlee', cursive;
+    font-weight: bold;
+}
+.how-it-works-list{
+    font-family: 'Hanlee', cursive;
+    font-size: 18px;
+    margin-left: 30px;
+    line-height: 30px;
+}
+
+img.animated-gif{
+    width: 300px;
+    height: auto;
+    margin-left: 25%;
+    margin-top: 22.5px;
+}
+
+.bgimg-1{
+    background-image: url('../img/doghat.jpeg');
+    height: 90%; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .75;
+} 
+
+.bgimg-2{
+    background-image: url('../img/dogtoy.jpg');
+    height: 15%; 
+    position: relative;
+    opacity: 0.65;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg-3{
+    background-image: url('../img/pooping.jpg');
+    height: 75%; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.smallboxes, 
+.largeboxes{
+text-align: center;
+font-family: 'Yesteryear', cursive;
+font-size: 42px;
+height: 350px;
+}
+
+.large-box-list-items li,
+.small-box-list-items li{
+    float:left;
+    width: 33%;
+}
+
+.wrapper li{
+    display:inline-block;
+}
+
+.footer{
+    text-align: center;
+    display: inline;
+}
+
+/* TEST */
+.css-slider {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+.css-slides > li {
+    flex-shrink: 0;
+}
+
+.relative {
+    position: relative;
+}
+
+a img .jump-anchor{
+    position: absolute;
+}
+.v-align-bottom {
+    vertical-align: bottom;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+.crates-slider li:before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    background-size: contain;
+    left: 50%;
+}
+
+.css-slider .jump-anchor {
+    top: -215px;
+}
+
+.circle-270 {
+    width: 270px;
+    height: 270px;
+    padding: 0;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.bg-red {
+    background: #ef4129;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 5px;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+.huge-padding-left {
+    padding-left: 90px;
+}
+
+.padding-right {
+    padding-right: 15px;
+}
+
+.most-padding-above {
+    padding-top: 60px;
+}
+
+.jump-anchor {
+    top: -50px;
+    display: block;
+}
+
+.myShape { 
+    background:url('img/largecustom.png');
+}
+@media (min-width: 768px){
+.header-cta-open .jump-anchor, 
+.jump-anchor.very-tall-header {
+    top: -120px;
+}}
+
+
+@media (min-width: 960px){
+.crates-slider {
+    padding-left: 60px;
+    padding-right: 60px;
+}}
+@media (min-width: 768px){
+.crates-slider {
+    display: block;
+    width: 1200px;
+    max-width: 100%;
+}}
+
+@media (min-width: 768px){
+.crates-slider li {
+    float: left;
+    width: 33.33%;
+}}
+/* TEST */
+
+@media (max-width: 960px){
+    .caption{
+        font-family: 'Yesteryear', cursive;
+        transform: translate(30%,60%);
+        color: rgb(175, 111, 51);
+        margin-right: 0;
+    }
+    
+}
+
+@media (max-width: 770px){
+    .how-it-works{
+        font-family: 'Centra',Arial,Helvetica,Verdana,sans-serif;
+        height: 600px;
+    }
+    img.animated-gif{
+        width: 325px;
+        height: auto;
+        margin-right: 75px;
+    }
+}
+
+@media (max-width: 725px){
+    .smallboxes{
+    height: 600px;
+    }
+}
+
+@media (max-width: 725px){
+    .large-box-list-items li,
+    .small-box-list-items li{
+    display: block;
+    float: none;
+    width:100%;
+    margin: 10px;
+    }
+}
+
+@media (max-width: 725px){ 
+    .largeboxes{
+    height: 775px;
+    }
+}
+
+/* ------JULIES---------   */
+.product-list {
+    margin: 0 auto;
+    margin-top: 75px;
+}
+
+input.new-item:focus {
+    outline: none;
+}
+
+.list-group-item > button.complete {
+    float: right;
+    height: 25px;
+    margin-left: 5px;
+}
+
+.edit {
+    width: 100%;
+}
+
+.hide {
+    display: none;
+}
+
+.jumbotron {
+    text-align: center;
+}
+
+.navbar img {
+    border-radius: 15%;
+}
